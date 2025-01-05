@@ -1,0 +1,171 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 10px rgb(200, 200, 200);
+}
+
+.logo div {
+    height: 40px;
+    width: 40px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color: white;
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+    font-size: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover,
+.link5:hover {
+    border-bottom: 1.5px solid black;
+    cursor: pointer;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.icons ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.content {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider {
+    position: relative;
+    width: 48%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+    height: 435px;
+}
+
+img.displaySlide {
+    display: block;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Quicksand", serif;
+}
+
+.text p,
+.text h2 {
+    margin: 0;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.desc {
+    padding-top: 12px;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.colors {
+    display: flex;
+}
+
+.colors div {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.beige {
+    background-color: bisque;
+}
+
+.black {
+    background-color: black;
+}
+
+
+.price {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#buy {
+    margin-top: 12px;
+    padding: 7px;
+    width: 40%;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fff;
+    transition: background-color 0.2s ease-in;
+}
+
+#buy:hover {
+    background-color: black;
+    color: #fff;
+
+}

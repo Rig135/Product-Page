@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <div>D</div>
+        </div>
+        <div class="links">
+            <ul>
+                <li class="link1">SPEAKERS</li>
+                <li class="link2">HEADPHONES</li>
+                <li class="link3">TELEVESIONS</li>
+                <li class="link4">EXPLORE</li>
+                <li class="link5">SUPPORT</li>
+            </ul>
+        </div>
+
+        <div class="icons">
+            <ul>
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="slider">
+            <div class="slides">
+                <img class="slide" id="img1"
+                    src="https://plus.unsplash.com/premium_photo-1679513691485-711d030f7e94?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="headphones">
+                <img class="slide" id="img2"
+                    src="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+        <div class="text">
+            <p class="name">BoomBlast 85B</p>
+            <h2><b>Ultimate Over-Ear Headphones</b></h2>
+            <p class="desc">Moving, masterful, mesmerising. Get lost in your music <br> with adjustable noise-cancelling
+                headphones that redefine<br> grab-and-go listening.</p>
+
+            <div class="colors">
+                <div class="beige" name="beige"></div>
+                <div class="black" name="black"></div>
+            </div>
+
+            <div class="price">$499</div>
+
+            <button id="buy">Buy Now</button>
+        </div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
